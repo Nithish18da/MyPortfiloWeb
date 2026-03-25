@@ -223,7 +223,7 @@ document.getElementById("emailCard").addEventListener("click", () => {
 });
 
 document.getElementById("githubCard").addEventListener("click", () => {
-  alert("🐙 GitHub — Coming Soon! 🚀");
+  window.open("https://github.com/Nithish18da", "_blank");
 });
 
 document.getElementById("instaCard").addEventListener("click", () => {
