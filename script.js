@@ -32,13 +32,13 @@ const projects = [
 ];
 
 const hobbies = [
-  { icon: "🎌", name: "Anime",    desc: "Demon Slayer, JJK, AOT, Naruto — anime is life da!" },
-  { icon: "💻", name: "Coding",   desc: "Building websites and learning new things every day." },
-  { icon: "🎮", name: "Gaming",   desc: "Love playing games in free time. GG no re!" },
-  { icon: "🎬", name: "Editing",  desc: "Learning After Effects — video editing is next level!" },
-  { icon: "🎵", name: "Music",    desc: "Anime OSTs on repeat. Gurenge forever! 🔥" },
-  { icon: "📚", name: "Learning", desc: "Always curious — YouTube, docs, tutorials. Never stop!" },
-  { icon: "🏐", name: "VolleyBall", desc: "VolleyBall In My Blood Remeber.No One Can Stop Me to Playing VolleyBall!" },
+  { icon: "🎌", name: "Anime",      desc: "Demon Slayer, JJK, AOT, Naruto — anime is life da!" },
+  { icon: "💻", name: "Coding",     desc: "Building websites and learning new things every day." },
+  { icon: "🎮", name: "Gaming",     desc: "Love playing games in free time. GG no re!" },
+  { icon: "🎬", name: "Editing",    desc: "Learning After Effects — video editing is next level!" },
+  { icon: "🎵", name: "Music",      desc: "Anime OSTs on repeat. Gurenge forever! 🔥" },
+  { icon: "📚", name: "Learning",   desc: "Always curious — YouTube, docs, tutorials. Never stop!" },
+  { icon: "🏐", name: "Volleyball", desc: "My Best Sport Is VolleyBall" },
 ];
 
 const typingWords = [
