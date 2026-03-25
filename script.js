@@ -5,9 +5,9 @@ const skills = [
   { icon: "🌐", name: "HTML",          level: 70, label: "Learning" },
   { icon: "🎨", name: "CSS",           level: 60, label: "Learning" },
   { icon: "⚡", name: "JavaScript",    level: 40, label: "Beginner" },
-  { icon: "📱", name: "Responsive",    level: 55, label: "Learning" },
+  { icon: "📱", name: "Responsive",    level: 50, label: "Learning" },
   { icon: "🐙", name: "GitHub",        level: 35, label: "Beginner" },
-  { icon: "🎬", name: "After Effects", level: 30, label: "Beginner" },
+  { icon: "🎬", name: "After Effects", level: 15, label: "Beginner" },
 ];
 
 const projects = [
@@ -38,6 +38,7 @@ const hobbies = [
   { icon: "🎬", name: "Editing",  desc: "Learning After Effects — video editing is next level!" },
   { icon: "🎵", name: "Music",    desc: "Anime OSTs on repeat. Gurenge forever! 🔥" },
   { icon: "📚", name: "Learning", desc: "Always curious — YouTube, docs, tutorials. Never stop!" },
+  { icon: "🏐", name: "VolleyBall", desc: "VolleyBall In My Blood Remeber.No One Can Stop Me to Playing VolleyBall!" },
 ];
 
 const typingWords = [
