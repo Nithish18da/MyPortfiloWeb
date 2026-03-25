@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nithish | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader">
+    <div class="loader-kanji">炎</div>
+    <div class="loader-text">LOADING...</div>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+
+  <!-- CUSTOM CURSOR -->
+  <div id="cursor"></div>
+  <div id="cursorTrail"></div>
+
+  <!-- BACKGROUND -->
+  <div class="bg-overlay"></div>
+  <canvas id="flameCanvas"></canvas>
+
+  <!-- THEME TOGGLE -->
+  <button id="themeToggle" title="Toggle Theme">🌙</button>
+
+  <!-- BACK TO TOP -->
+  <button id="backToTop" title="Back to Top">⬆</button>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-logo">⚔️ NITHISH</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-slash">///</div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-tag">Frontend Developer</div>
+      <h1 class="hero-title">
+        <span class="hero-name">NITHISH</span>
+        <span class="hero-sub">I am a <span id="typingText" class="typing-text"></span><span class="cursor-blink">|</span></span>
+      </h1>
+      <p class="hero-desc">7th Standard Student • HTML • CSS • JavaScript</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <div class="badge-ring"></div>
+      <div class="badge-inner">
+        <span class="badge-kanji">炎</span>
+        <span class="badge-text">SET YOUR HEART ABLAZE</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section reveal" id="about">
+    <div class="section-header">
+      <span class="section-tag">// 001</span>
+      <h2 class="section-title">About Me</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-left">
+        <div class="about-symbol">🧑‍💻</div>
+      </div>
+      <div class="about-right">
+        <h3 class="about-heading">Vanakkam! I'm <span class="red">Nithish</span></h3>
+        <p class="about-text">A passionate young developer from Tamil Nadu 🇮🇳, currently in 7th standard. I believe in the Flame Hashira's motto — <em>"Set your heart ablaze"</em> — and that's exactly how I approach coding. Every project, every line of code is written with full intensity! 🔥</p>
+        <p class="about-text">I'm learning HTML, CSS and JavaScript — building my path towards becoming a full-stack developer. This is just the beginning of my journey!</p>
+        <div class="about-facts">
+          <div class="fact"><span class="fact-icon">📍</span> Tamil Nadu, India</div>
+          <div class="fact"><span class="fact-icon">🎓</span> 7th Standard Student</div>
+          <div class="fact"><span class="fact-icon">🎌</span> Anime Fan & Coder</div>
+          <div class="fact"><span class="fact-icon">🚀</span> Future Full Stack Dev</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt reveal" id="skills">
+    <div class="section-header">
+      <span class="section-tag">// 002</span>
+      <h2 class="section-title">Skills</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid" id="skillsGrid"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section reveal" id="projects">
+    <div class="section-header">
+      <span class="section-tag">// 003</span>
+      <h2 class="section-title">Projects</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-grid" id="projectsGrid"></div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section class="section section-alt reveal" id="hobbies">
+    <div class="section-header">
+      <span class="section-tag">// 004</span>
+      <h2 class="section-title">Hobbies</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="hobbies-grid" id="hobbiesGrid"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section reveal" id="contact">
+    <div class="section-header">
+      <span class="section-tag">// 005</span>
+      <h2 class="section-title">Contact</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-wrapper">
+      <p class="contact-subtitle">Ready to collaborate? Let's build something amazing! 🔥</p>
+      <div class="contact-cards">
+        <div class="contact-card" id="emailCard">
+          <span class="contact-icon">📧</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">Coming Soon</span>
+        </div>
+        <div class="contact-card" id="githubCard">
+          <span class="contact-icon">🐙</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">Coming Soon</span>
+        </div>
+        <div class="contact-card" id="instaCard">
+          <span class="contact-icon">📸</span>
+          <span class="contact-label">Instagram</span>
+          <span class="contact-value">@sasukeee_lx2</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-kanji">炎</span>
+      <p>Made with ❤️ & 🔥 by <span class="red">Nithish</span></p>
+      <p class="footer-quote">"Set Your Heart Ablaze" — Flame Hashira</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
